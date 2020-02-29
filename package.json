@@ -1,0 +1,18 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "homepage": "https://raressanduconstantin.github.io/Speak-Number-Game/",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Rares Sandu",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "node-sass": "^4.13.0",
+    "run": "^1.4.0"
+  }
+}
